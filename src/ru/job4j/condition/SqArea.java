@@ -1,17 +1,10 @@
 package ru.job4j.condition;
 
 public class SqArea {
-    public static double square(int p, int k,) {
+    public static double square (int p, int k, int l) {
         double h = p/(2*(k+1));
         return h;
-    }
-    public static double square(int k, int h,) {
-        double L = h * k;
-        return L;
-    }
-    public static double square(int L, int h,) {
-        double s = L * h;
-        return s;
+
     }
 
     public static void main(String[] arg) {
