@@ -13,6 +13,11 @@ public class X2Test {
         int b = 1;
         int c = 1;
         int x = 0;
+
+
+
+
+
         int expected = 40;
         int rsl = X2.calc(a, b, c, x);
         assertThat(rsl, is(expected));
