@@ -5,8 +5,6 @@ public class Triangle { public static boolean exist(double ab, double ac, double
     return result;
  }
 
-     public static void main(String[] args) {
-        String msg = Triangle.exist(2, 3, 5);
-        System.out.println(msg);
-    }
+
+
 }
