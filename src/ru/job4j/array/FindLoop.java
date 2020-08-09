@@ -12,10 +12,8 @@ public class FindLoop {
             return rst;
         }
 
-        public static void main(String[] args) {
-            int[] array = indexOf(10, 8);
-            for (int index = 0; index < array.length; index++) {
-                System.out.println(array[index]);
-            }
-        }
+    public static void main(String[] args) {
+        int index = FindLoop.indexOf(new int[]{10, 20, 30, 40, 50, 8, 15, 17}, 8);
+        System.out.println(index);
+    }
     }
