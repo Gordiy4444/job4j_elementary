@@ -14,4 +14,13 @@ public class FindLoopTest {
         int expect = 0;
         assertThat(result, is(expect));
     }
+    @Test
+    public void whenArrayHas1() {
+        int input[] = {5, 4, 3, 2, 6};
+        int value = 1;
+        int result = FindLoop.indexOf(input, value);
+        int expect = -1;
+        assertThat(result, is(expect));
+
+    }
 }

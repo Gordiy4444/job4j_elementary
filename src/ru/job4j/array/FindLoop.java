@@ -13,7 +13,7 @@ public class FindLoop {
         }
 
     public static void main(String[] args) {
-        int index = FindLoop.indexOf(new int[]{5, 4, 3,2, 6}, 10 );
+        int index = FindLoop.indexOf(new int[]{5, 4, 3, 2, 6}, 10 );
         System.out.println(index);
     }
     }
