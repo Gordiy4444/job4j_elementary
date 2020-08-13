@@ -4,7 +4,7 @@ public class Check {
     public static boolean mono(boolean[] data) {
     boolean result = true;
             for (int index = 0; index < data.length; index++) {
-                 {if data[index] == 0
+                 { data[data.length]  = true;
                  result = false;
                 }
 
@@ -13,10 +13,9 @@ public class Check {
     return result;
 }
     public static void main (String[]args){
-        int[] nums = new int[]{1, 2, 3, 4, 5, 6};
-        int[] rsl = mono(nums);
-        for (int index = 0; index < rsl.length; index++)
-            System.out.println(rsl[index]);
+        boolean[] nums = new boolean[]{true, true, true};
+        boolean rsl = mono(nums);
+            System.out.println(rsl);
     }
 }
 
