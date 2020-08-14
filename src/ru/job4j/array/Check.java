@@ -4,7 +4,7 @@ public class Check {
     public static boolean mon(boolean[] data) {
         boolean result = true;
         for (int index = 0; index < data.length; index++) {
-            {  if(data[index] != data[0])
+             if(data[index] != data[0]){
                 result = false;
                 break;
             }
@@ -14,7 +14,7 @@ public class Check {
     }
 
     public static void main(String[] args) {
-        boolean[] nums = new boolean[]{true, true, true};
+        boolean[] nums = new boolean[]{true, true, false};
         boolean rsl = mon(nums);
         System.out.println(rsl);
     }
