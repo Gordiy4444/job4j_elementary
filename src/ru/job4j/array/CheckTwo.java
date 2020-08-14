@@ -1,10 +1,12 @@
 package ru.job4j.array;
 
-public class Check {
-    public static boolean mon(boolean[] data) {
+public class CheckTwo {
+    public static boolean mono(boolean[] data) {
         boolean result = true;
         for (int index = 0; index < data.length; index++) {
-            {  if(data[index] != data[0])
+
+            { if (data [data.length - index] == data[data.length]);
+
                 result = false;
                 break;
             }
@@ -13,10 +15,10 @@ public class Check {
         }
         return result;
     }
-
-    public static void main(String[] args) {
+    public static void main (String[]args){
         boolean[] nums = new boolean[]{true, true, true};
-        boolean rsl = mon(nums);
+        boolean rsl = mono(nums);
         System.out.println(rsl);
     }
 }
+
