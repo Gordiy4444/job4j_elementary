@@ -5,8 +5,7 @@ public class ArrayChar {
         boolean result = true;
 
         for (int index = 0; index < word.length; index++) {
-            for (int i = 0; i < pref.length; index++) {
-                if (word[index] != pref[i]) {
+                if (word[index] != pref[index]) {
                     result = false;
                     break;
                 }
@@ -16,8 +15,9 @@ public class ArrayChar {
 
 
         public static void main (String[]args){
-            boolean[] nums = new boolean[]{};
-            boolean rsl = startsWith();
+            char[] nums = new char[]{'H', 'e', 'l', 'l', 'o'};
+            char[] bums = new char[]{'H', 'e'};
+            boolean rsl = startsWith(nums, bums);
             System.out.println(rsl);
         }
     }
