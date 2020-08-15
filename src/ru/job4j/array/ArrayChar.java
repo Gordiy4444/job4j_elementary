@@ -4,7 +4,7 @@ public class ArrayChar {
     public static boolean startsWith(char[] word, char[] pref) {
         boolean result = true;
 
-        for (int index = 0; index < word.length; index++) {
+        for (int index = 0; index < pref.length; index++) {
                 if (word[index] != pref[index]) {
                     result = false;
                     break;
@@ -17,7 +17,7 @@ public class ArrayChar {
         public static void main (String[]args){
             char[] word = {'H', 'e', 'l', 'l', 'o'};
             char[] pref = {'H', 'e'};
-            boolean rsl = startsWith(word, pref);
+            boolean rsl = ArrayChar. startsWith(word, pref);
             System.out.println(rsl);
         }
     }
