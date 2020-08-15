@@ -15,10 +15,9 @@ public class ArrayChar {
 
 
         public static void main (String[]args){
-            char[] nums = new char[]{'H', 'e', 'l', 'l', 'o'};
-            char[] bums = new char[]{'H', 'e'};
-            boolean rsl = startsWith(nums, bums);
+            char[] word = {'H', 'e', 'l', 'l', 'o'};
+            char[] pref = {'H', 'e'};
+            boolean rsl = startsWith(word, pref);
             System.out.println(rsl);
         }
     }
-}
