@@ -16,5 +16,10 @@ public class SortSelected {
 
         }
         return data;
+
+        public static void main(String[] args) {
+            int i = SortSelected.sort(new int[]{5, 4, 3, 2, 6, 7}, 0);
+            System.out.println(i);
+
+        }
     }
-}
