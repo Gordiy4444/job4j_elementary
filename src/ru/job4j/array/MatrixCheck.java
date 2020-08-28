@@ -4,32 +4,24 @@ public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
         for (int index = 0; index < board.length; row++) {
-            if(board[row][index] != 'X')
+            if (board[row][index] != 'X')
 
-        result = false;
+                result = false;
 
-        break;
+            break;
+        }
+
+
+        return result;
     }
 
-
-    return result;
+    public static void main(String[] args) {
+        char[][] board = {
+                {' ', ' ', ' '},
+                {'X', 'X', 'X'},
+                {' ', ' ', ' '},
+        };
+        boolean rsl = monoHorizontal(board, 0);
+        System.out.println(rsl);
+    }
 }
-
- public static void main(String[] args) {
-char[][] board = {
-        {' ', ' ', ' '},
-        {'X', 'X', 'X'},
-        {' ', ' ', ' '},
-};
-        char[][] rsl = monoHorizontal(board, );
-        for (int row = 0; row < rsl.length; row++) {
-        for (int cell = 0; cell < rsl.length; cell++) {
-        System.out.print(rsl[row][cell]);
-        System.out.print(" ");
-        }
-        System.out.println();
-        }
-
-        }
-}
-
