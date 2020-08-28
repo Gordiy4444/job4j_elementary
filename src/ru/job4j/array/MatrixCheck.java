@@ -16,8 +16,12 @@ public class MatrixCheck {
 }
 
  public static void main(String[] args) {
-
-        int[][] rsl = monoHorizontal("X",  4);
+char[][] board = {
+        {' ', ' ', ' '},
+        {'X', 'X', 'X'},
+        {' ', ' ', ' '},
+};
+        char[][] rsl = monoHorizontal(board, );
         for (int row = 0; row < rsl.length; row++) {
         for (int cell = 0; cell < rsl.length; cell++) {
         System.out.print(rsl[row][cell]);
