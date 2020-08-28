@@ -5,7 +5,7 @@ public class Matrix {
         int[][] table = new int[size][size];
         for (int row = 0; row < table.length; row++) {
             for (int cell = 0; cell < table.length; cell++) {
-                table[row][cell] = (row - 1) * (cell - 1);
+                table[row][cell] = (row + 1) * (cell + 1);
 
             }
         }
@@ -16,7 +16,7 @@ public class Matrix {
 
     public static void main(String[] args) {
 
-        int[][] rsl = multiple(10);
+        int[][] rsl = multiple(9);
         for (int row = 0; row < rsl.length; row++) {
             for (int cell = 0; cell < rsl.length; cell++) {
                 System.out.print(rsl[row][cell]);
