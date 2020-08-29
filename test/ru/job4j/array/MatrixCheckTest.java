@@ -25,7 +25,7 @@ public class MatrixCheckTest {
                 {' ', ' ', ' '},
         };
         boolean result = MatrixCheck.monoHorizontal(input, 1);
-        assertThat(result, is(false));
+        assertThat(result, is(flse));
     }
 
     @Test
