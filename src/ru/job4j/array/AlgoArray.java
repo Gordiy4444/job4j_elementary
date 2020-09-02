@@ -11,8 +11,6 @@ public class AlgoArray {public static void main(String[] args) {
     int three = array[3];
     array[3] = array[4];
     array[4] = three;
-
-
     for (int index = 0; index < array.length; index++) {
         System.out.println(array[index]);
     }

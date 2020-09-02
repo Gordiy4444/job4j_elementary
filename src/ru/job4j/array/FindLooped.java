@@ -7,7 +7,6 @@ public class FindLooped {
             for (int i = 0; i < array.length; i++)
             if (data[index] == array[i]) {
                 rst = index;
-
             }
         }
         return rst;

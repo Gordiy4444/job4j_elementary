@@ -5,12 +5,9 @@ public class CheckTwo {
         boolean result = true;
         for (int index = 0; index < data.length; index++) {
             { if(data[data.length - 1] = data[index]);
-
                 result = false;
                 break;
             }
-
-
         }
         return result;
     }

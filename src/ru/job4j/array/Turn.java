@@ -6,11 +6,9 @@ public class Turn {
             int temp = array[index];
             array[index] = array[array.length - 1 - index];
             array[array.length - 1 - index] = temp;
-
         }
             return array;
         }
-
         public static void main (String[]args){
             int[] nums = new int[]{1, 2, 3, 4, 5, 6};
             int[] rsl = back(nums);

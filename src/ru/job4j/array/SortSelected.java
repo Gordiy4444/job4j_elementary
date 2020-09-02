@@ -12,7 +12,6 @@ public class SortSelected {
         }
         return data;
     }
-
     public static void main(String[] args) {
         int[] index = SortSelected.sort(new int[]{5, 4, 3, 2, 6, 7});
         for (int i = 0; i < index.length; i++) {

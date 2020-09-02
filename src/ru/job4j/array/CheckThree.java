@@ -8,11 +8,9 @@ public class CheckThree {
                 result = false;
                 break;
             }
-
         }
         return result;
     }
-
     public static void main(String[] args) {
         boolean index = moon(new int[] {1, 2, 9, 5, 6, 7});
         System.out.println(index);

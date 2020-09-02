@@ -5,14 +5,10 @@ public class MatrixCheck {
         boolean result = true;
         for (int index = 0; index < board.length; index++) {
                 if (board[row][index] != 'X'){
-
                     result = false;
-
                 break;
             }
         }
-
-
         return result;
     }
     public static boolean monoVertical(char[][] board, int column) {
@@ -22,7 +18,6 @@ public class MatrixCheck {
                 if (board[i][column] != 'X'){
                     result = false;
                     break;
-
             }
         }
         return result;
@@ -47,7 +42,6 @@ public class MatrixCheck {
 
         return result;
     }
-
     public static void main(String[] args) {
         char[][] board = {
                 {'X', ' ', 'X',' ', 'X'},

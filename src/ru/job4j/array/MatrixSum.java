@@ -6,14 +6,11 @@ public class MatrixSum {
         for (int row = 0; row < array.length; row++) {
             for (int cell = 0; cell < array.length; cell++) {
                 rsl += array[cell][row];
-
             }
         }
         return rsl;
 
     }
-
-
     public static void main(String[] args) {
         int[][] array = {
                 {1, 2, 3},
@@ -21,6 +18,5 @@ public class MatrixSum {
                 {2, 3, 1}
         };
         System.out.println(MatrixSum.sum(array));
-
     }
 }
