@@ -5,7 +5,6 @@ public class TrgArea {
     double p = (a + b + c) / 2;
     double s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
     return s;
-
  }
     public static void main(String[] args) {
         double rsl = TrgArea.area(2, 2, 2);

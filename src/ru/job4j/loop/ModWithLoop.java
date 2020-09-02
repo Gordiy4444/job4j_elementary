@@ -5,9 +5,6 @@ public class ModWithLoop {public static int mod(int n, int d) {
         n = n - d;
     }
     return n;
-
 }
-
-
 }
 

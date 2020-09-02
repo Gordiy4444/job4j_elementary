@@ -9,7 +9,6 @@ public class MatrixSum {
             }
         }
         return rsl;
-
     }
     public static void main(String[] args) {
         int[][] array = {

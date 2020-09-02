@@ -12,7 +12,6 @@ public class SortSelectedED {
             int temp = data[start];
             data[start] = data[min];
             data[min] = temp;
-
         }
         return data;
     }

@@ -11,7 +11,6 @@ public class SkipNegative {
             }
         }
         return array;
-
     }
     public static void main(String[] args) {
         int[][] array = {

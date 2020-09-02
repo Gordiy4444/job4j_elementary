@@ -11,7 +11,6 @@ public class FindLooped {
         }
         return rst;
     }
-
     public static void main(String[] args) {
         int index = FindLooped.indexOff(new int[]{5, 4, 3, 2, 6, 7}, new int[]{8, 9, 31, 5, 7});
         System.out.println(index);

@@ -9,10 +9,8 @@ public class CheckPrimeNumber {
                 break;
             }
         }
-
         return prime;
     }
-
     public static void main(String[] args) {
         System.out.print(check(5));
         System.out.print(check(4));

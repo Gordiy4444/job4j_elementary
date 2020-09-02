@@ -8,11 +8,9 @@ public class Check {
                 result = false;
                 break;
             }
-
         }
         return result;
     }
-
     public static void main(String[] args) {
         boolean[] nums = new boolean[]{true, true, false};
         boolean rsl = mon(nums);

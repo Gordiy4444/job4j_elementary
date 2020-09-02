@@ -6,14 +6,10 @@ public class Matrix {
         for (int row = 0; row < table.length; row++) {
             for (int cell = 0; cell < table.length; cell++) {
                 table[row][cell] = (row + 1) * (cell + 1);
-
             }
         }
         return table;
-
     }
-
-
     public static void main(String[] args) {
 
         int[][] rsl = multiple(9);
@@ -24,6 +20,5 @@ public class Matrix {
             }
             System.out.println();
         }
-
     }
 }
