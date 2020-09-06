@@ -10,7 +10,7 @@ public class PointTest {
 
         Point a = new Point(0, 0);
         Point b = new Point(0, 2);
-        int expected = 0;
+        int expected = 2;
         double result = a.distance(b);
         Assert.assertEquals(expected, result, 0.01);
     }
