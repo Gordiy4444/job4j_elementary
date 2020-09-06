@@ -5,10 +5,15 @@ public class Max {
     return right > left ? right : left;
   }
     public static int max(int left, int right,int ahead) {
-        return  right > left > ahead ? right : left : ahead;
+        int tmp = max(right, ahead);
+        return max(left, tmp);
+    }
+    public static int max(int left, int right,int ahead, int back) {
+        int tmp = max(right, ahead, back);
+         return max(left, tmp);
     }
   public static void main(String[] args) {
-    int msg = Max.max(6, 5);
+    int msg = Max.max(6, 5, 4, 3);
     System.out.println(msg);
  }
 }
